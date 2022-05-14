@@ -1,5 +1,5 @@
-## nand2tetris exercise
-### expextion
+## Nand2tetris exercise
+### Expextion
 - https://stackoverflow.com/questions/30442155/logic-gate-xor-hdl-not-working-with-nand2tetris
 
 ### Progress
