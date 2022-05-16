@@ -10,3 +10,36 @@
 // R0 >= 0, R1 >= 0, and R0*R1 < 32768.
 
 // Put your code here.
+// Pseudo code:
+// initialize sum = 0;
+// while(R1>0){
+//     R1--;
+//     sum=sum+R0;
+// }   
+
+@R2
+M=0
+
+(LOOP)
+@R1
+D=M
+@END
+D;JEQ
+
+@R1
+D=M
+M=D-1
+
+@R2
+D=M
+@R0
+D=M+D
+@R2
+M=D
+
+@LOOP
+0;JMP
+
+(END)
+@END
+0;JMP
