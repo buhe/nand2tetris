@@ -4,7 +4,7 @@
 
 ### Notes
 - 05
-  - c: 15(opcode)|xx|12|11 10 9 8 7 6(control)|5 4 3(dest)|2 1 0(jump)
+  - c: 15(opcode)|xx|12(control)|11 10 9 8 7 6(control)|5 4 3(dest)|2 1 0(jump)
 
 ### Progress
 - [x] 01
