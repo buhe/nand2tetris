@@ -7,12 +7,14 @@
   - c: 15(opcode)|xx|12(control)|11 10 9 8 7 6(control)|5 4 3(dest)|2 1 0(jump)
 
 ### Progress
+#### Hardware
 - [x] 01
 - [x] 02
 - [x] 03
 - [x] 04
 - [x] 05
 - [ ] 06
+#### Software
 - [ ] 07
 - [ ] 08
 - [ ] 09
